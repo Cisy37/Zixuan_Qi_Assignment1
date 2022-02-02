@@ -16,6 +16,8 @@ setwd(wd)
 #=================================================================
 
 ####Import####
+# need to seperate the datasets to two kinds of files, 
+# one's name is dathh, the other's name is datind
 file_dathh = list.files("dathh")  
 dir_dathh = paste("./dathh/", file_dathh, sep="")  
 n_dathh = length(dir_dathh)
